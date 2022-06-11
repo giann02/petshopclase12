@@ -5,53 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a35c4f7944.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <p>Grandes ofertas en comederos</p>
-        <p>Español</p>
-        <p>ARG$</p>
-        <img src="img/Cat.jpg" width="30" alt="Imagen gato"> <h3>Front Cat&Dog</h3> <img src="img/Dog.jpg" width="30" alt="Imagen perro">
-        <nav>
-            <ul type="none">
-                <li><p>Categorias</p></li>
-                <li><p>Pets</p></li>
-                <li><p>Nosotros</p></li>
-                <li><p>Contactanos</p></li>
-            </ul>
+        <div class="negro">
+            <p>Grandes ofertas en comederos</p>
+            <div class="imagenes"><img src="img/Price.png" alt="precio"> <img src="img/Spanish.png">
+            </div>
+        </div>
         
-        </nav>
+        <div class="nav-bar">
+            <img class="logo" src="img/logofinal.jpg" alt="logo">
+            <nav>
+                <ul type="none" class="cositos">
+                    <li class="boton1"><i class="fa-solid fa-paw"></i> Categorias</li> 
+                    <li class="boton1"><i class="fa-solid fa-paw"></i> Pets</li> 
+                    <li class="boton1"><i class="fa-solid fa-paw"></i> Nosotros</li> 
+                    <li class="boton1"><i class="fa-solid fa-paw"></i> Contactanos</li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main> 
-        <section>
-            <img src="img/fondo.jpg" width="2000" alt="Imagen principal">
-            <h2>Es un placer tenerte aqui</h2>
-            <h4>!Comederos en descuento!</h4>
-            <h3>COMEDEROS</h3>
+        <section class="principal">
+            <div class="todos">
+                <h2 class="h2">Es un placer tenerte aqui</h2>
+                <h4>!Comederos en descuento!</h4>
+                <button  class="comederos">COMEDEROS</button>
+            </div>
         </section>
-        <section>
-            <img src="img/huella.jpg" width="50" alt="Imagen huella perro">
+        <section class="productos">
+            <span class="segundoboton"><i class="fa-solid fa-paw"></i></span>
             <h1>Productos Destacados</h1>
             <p>Comederos - Accesorios - Comida</p>
-            <ul type="none">
-                <li><img src="img/churrasquito.jpg" width="100" alt="Churrasquito">
-                <p>Juguete churrasquito</p>
-                <p>150$</p></li>
-                <li><img src="img/comedero.jpg" width="100" alt="Comedero perro">
-                <p>Comedero para perro</p>
-                <p>250$</p></li>
-                <li><img src="img/Huesito.jpg" width="100" alt="Huesito perro">
-                <p>Juguete Huesito</p>
-                <p>650$</p></li>
+        </section>
+            <section class="todassecciones">
+                <ul type="none" class="todo">
+                    <li class="primerseccion"><img class="imagen1" src="img/churrasquito.jpg" width="100" alt="Churrasquito">
+                    <p>Juguete churrasquito</p>
+                    <p>150$</p></li>
+                    <li class="segundaseccion"><img src="img/comedero.jpg" width="100" alt="Comedero perro">
+                    <p>Comedero para perro</p>
+                    <p>250$</p></li>
+                    <li class="terceraseccion"><img src="img/Huesito.jpg" width="100" alt="Huesito perro">
+                    <p>Juguete Huesito</p>
+                    <p>650$</p></li>
             </ul>
         </section>
-        <section><h3>Contactanos</h3>
-        <p>Resetear</p>
-        <p>Enviar</p></section>
-        <section><h3>Suscribite para mas novedades</h3>
-        <p>Suscribirme</p></section>
-        <section>
-            <ul type="none">
+        <section class="contacto">
+            <h2>Contactanos</h2>
+            <ul class="botones">
+                <li><button class="burbuja">Nombre y Apellido</button></li>
+                <li><button class="burbuja">Ingresa tu correo electronico</button></li>
+                <li><button class="burbuja">Telefono</button></li>
+            </ul>
+        </section>
+        <section class="envyrest">
+            <button class="resetear">Resetear</button>
+            <button class="enviar">Enviar</button>
+        </section>
+            <section class="suscripcion"><h3>Suscribite para mas novedades</h3>
+                <p>Ingrese correo electronico</p>
+                <p>Suscribirme</p></section>
+        <section class="info">
+            <ul>
                 <li><img src="img/Icono ubi.jpg" width="40" alt="Icono ubi">
                 <h3>Localidad</h3>
                 <p>Calle - provincia</p></li>
